@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/nicklvsa/bsipa-manifest-schema/main/Schema/manifest.schema.json",
+  "id": "com.cc.bspiracy",
+  "name": "BSPiracy",
+  "author": "crimsoncauldron",
+  "version": "1.0.0",
+  "description": "BSPiracy by crimsoncauldron",
+  "gameVersion": "*",
+  "dependsOn": {
+    "BSIPA": ">=4.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project>
+	<PropertyGroup>
+		<GamePath>G:\BSManager\BSInstances\1.40.8</GamePath>
+		<GameAssemblyPath>$(GamePath)\Beat Saber_Data\Managed</GameAssemblyPath>
+		<IPAPath>$(GamePath)\IPA\Data\Managed</IPAPath>
+    <LibsPath>$(GamePath)\IPA\Libs</LibsPath>
+		<PluginsPath>$(GamePath)\Plugins</PluginsPath>
+	</PropertyGroup>
+</Project>

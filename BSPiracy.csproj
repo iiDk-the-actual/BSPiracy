@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Reference Include="$(GameAssemblyPath)/*.dll" />
+    <Reference Include="$(LibsPath)/*.dll" />
+    <Reference Include="$(IPAPath)/*.dll" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="manifest.json" />
+  </ItemGroup>
+
+</Project>
